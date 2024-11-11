@@ -54,11 +54,27 @@ namespace Assignment2_1_1
             }
         }
 
-        public Student(int StudentId, string StudentFname, string StudentLname)
+        private char StudentGrade;
+
+        public char studentGrade
+        {
+            get
+            {
+                return StudentGrade;
+
+            }
+            set
+            {
+                StudentGrade = value;
+
+            }
+        }
+        public Student(int StudentId, string StudentFname, string StudentLname, char studentGrade)
         {
             this.StudentId = StudentId;
             this.StudentFname = StudentFname;
             this.StudentLname = StudentLname;
+            this.StudentGrade = studentGrade;
         }
 
 	}
