@@ -6,75 +6,75 @@ namespace Assignment2_1_1
     //Instantiate the class and assign data to properties. Display the data back on console.
     public class Student
     {
-        private int StudentId;
+        private int studentId;
 
-        public int studentId
+        public int StudentId
         {
             get
             {
-                return StudentId;
+                return studentId;
 
             }
             set
             {
-                StudentId = value;
+                studentId = value;
 
             }
         }
 
-        private string StudentFname;
+        private string studentFname;
 
-        public string studentFname
+        public string StudentFname
         {
             get
             {
-                return StudentFname;
+                return studentFname;
 
             }
             set
             {
-                StudentFname = value;
+                studentFname = value;
 
             }
         }
 
-        private string StudentLname;
+        private string studentLname;
 
-        public string studentLname
+        public string StudentLname
         {
             get
             {
-                return StudentLname;
+                return studentLname;
 
             }
             set
             {
-                StudentLname = value;
+                studentLname = value;
 
             }
         }
 
-        private char StudentGrade;
+        private char studentGrade;
 
-        public char studentGrade
+        public char StudentGrade
         {
             get
             {
-                return StudentGrade;
+                return studentGrade;
 
             }
             set
             {
-                StudentGrade = value;
+                studentGrade = value;
 
             }
         }
-        public Student(int StudentId, string StudentFname, string StudentLname, char studentGrade)
+        public Student(int StudentId, string StudentFname, string StudentLname, char StudentGrade)
         {
-            this.StudentId = StudentId;
-            this.StudentFname = StudentFname;
-            this.StudentLname = StudentLname;
-            this.StudentGrade = studentGrade;
+            this.studentId = StudentId;
+            this.studentFname = StudentFname;
+            this.studentLname = StudentLname;
+            this.studentGrade = StudentGrade;
         }
 
 	}
